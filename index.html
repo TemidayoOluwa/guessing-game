@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <main>
-        <h1>Guessing Game</h1>
-        <p>Guess the number between 1 - 100</p>
-        <p>Please note, you have three(3) attempts to try else you lose</p>
+        <h1>The Guessing Game</h1>
+        
         <div class="form-container">
             <form action="" class="form">
-                <label for="guessingField" id="guess">First Attempt <span>Guess Now</span></label>
-                <input type="text" name="guessingField" id="guessField" class="inputGuess">
-                <button>Submit now</button>
+                <label for="guessingField" id="guess"> Guess A Number</label>
+                <input type="text" name="" id="guessingField" class="inputGuess">
+                <input id="sub" type="submit" value="Submit Now">
             </form>
+            <div class="result">
+                <p>Previous Guesses: <span class="guesses"></span> </p>
+                <p>Attempt Left: <span class="lastResult" id="attempts">3</span></p>
+                <p class="low-Hi"></p>
+            </div>
         </div>
     </main>
 </body>

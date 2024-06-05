@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: whitesmoke;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(246, 255, 255); */
+}
+main h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cornflowerblue;
+    padding: 30px 0;
+}
+form{
+    background: #9abcff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+    border-radius: 5px;
+    box-shadow:  -2px 2px 2px 2px rgba(164, 136, 136, 0.2);
+
+}
+label{
+    font-family: monospace;
+    color: aliceblue;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+.inputGuess{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    outline: none;
+    border: none;
+}
+.inputGuess:hover, .inputGuess:focus{
+    border: 2px solid rgb(237, 100, 100);
+}
+#sub{
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    padding: 10px;
+    margin:  20px 0;
+    outline: none;
+    border: 2px solid cornflowerblue;
+    color: cornflowerblue;
+}
+#sub:hover{
+    border: 2px solid rgb(237, 100, 100);
+    color: rgb(237, 100, 100);
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(255, 154, 154);
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+h3{
+    border: 2px solid aliceblue;
+    background: #4181ff;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    margin-bottom: 1rem;
+}
